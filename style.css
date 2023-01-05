@@ -1,0 +1,28 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+
+}
+
+body{
+    background-image: url(./images/adrian-infernus-GLf7bAwCdYg-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 450px;
+}
+
+.header-name{
+    text-align: center;
+    margin: 30px;
+    font-size: 50px;
+    font-family: 'Kanit', sans-serif;
+    color: white;
+    text-shadow: 0 0 10px rgb(69, 57, 240) ;
+}
+
+.para1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
