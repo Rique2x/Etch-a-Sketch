@@ -5,14 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Etch-a-Sketch</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Trykker&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <!--Header & Paragraph-->
+   
     <header>
         <h1 class="header-name">Etch A Sketch</h1>
-        <p class="para1">Choose the grid and the color, then hover the mouse to paint.
+        <p class="para1">Choose the color, then hover the mouse to paint.
             To clear the grid - just push the same or another grid button.</p>
     </header>
+
+    <!--Buttons-->
+
+    <div class="buttons-container">
+        <div class="buttons-items">
+            <button class="btn" id="resetBtn">Reset</button>
+            <button class="btn" id="blackBtn">Black</button>
+            <button class="btn" id="rainbowBtn">Rainbow</button>
+            <button class="btn" id="greyBtn">Grey</button>
+            <button class="btn" id="pickBtn">Pick:
+                <input id="base" type="color" value="#000">
+            </button>   
+            <button class="btn" id="eraserBtn">Eraser</button>
+        </div>
+    </div>
 </body>
 </html>
