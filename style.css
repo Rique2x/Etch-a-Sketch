@@ -3,7 +3,7 @@ body{
     background-image: url(./images/adrian-infernus-GLf7bAwCdYg-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 170vh;
+   
 }
 
 /*Header & Paragraph*/
@@ -80,3 +80,12 @@ body{
     margin-bottom: 50px;
   }
 
+#copyright{
+    display: flex;
+    justify-content: center;
+}
+
+#copyright p{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
